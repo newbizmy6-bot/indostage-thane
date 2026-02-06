@@ -69,10 +69,10 @@ export default function Home() {
   ];
 
   const stats = [
-    { number: "500+", label: "Performances", icon: Star },
-    { number: "50+", label: "Artists Network", icon: Users },
-    { number: "25+", label: "Years Experience", icon: Award },
-    { number: "10+", label: "Countries Reached", icon: Globe },
+    { number: "15", label: "Performances", icon: Star },
+    { number: "50", label: "Artists Network", icon: Users },
+    { number: "5", label: "Years Experience", icon: Award },
+    { number: "3", label: "Countries Reached", icon: Globe },
   ];
 
   return (
@@ -117,7 +117,7 @@ export default function Home() {
               className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-8 leading-tight"
               data-testid="text-hero-title"
             >
-              Indo
+              Indostage
             </motion.h1>
 
             <motion.p
