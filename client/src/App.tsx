@@ -12,6 +12,7 @@ import Contact from "@/pages/Contact";
 import ScrollToTop from "@/components/ScrollToTop";
 import SocialSidebar from "@/components/SocialSidebar";
 import WhatsAppPopup from "@/components/WhatsAppPopup";
+import GhazalPopup from "@/components/GhazalPopup";
 
 function Router() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <TooltipProvider>
         <Toaster />
         <ScrollToTop />
+        <GhazalPopup />
         <SocialSidebar />
         <WhatsAppPopup />
         <Router />
