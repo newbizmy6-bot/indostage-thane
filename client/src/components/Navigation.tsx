@@ -44,7 +44,7 @@ export default function Navigation() {
           <Link href="/" className="flex items-center space-x-3 group" data-testid="link-home">
             <div className={`font-serif font-bold transition-all duration-300 ${scrolled ? 'text-2xl text-primary' : 'text-3xl text-white'
               }`}>
-              <span className="group-hover:text-primary transition-colors">Indo</span>
+              <span className="group-hover:text-primary transition-colors">Indostage</span>
             </div>
           </Link>
 

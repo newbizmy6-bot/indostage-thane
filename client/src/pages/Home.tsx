@@ -7,9 +7,10 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import heroImage from "@assets/generated_images/grand_indian_classical_dance_performance_on_stage.png";
 import mandalaImage from "@assets/generated_images/golden_mandala_decorative_pattern.png";
-import dancerImage from "@assets/generated_images/elegant_classical_dancer_portrait.png";
 import stageImage from "@assets/generated_images/grand_cultural_event_stage_setup.png";
-import vocalistImage from "@assets/generated_images/classical_vocalist_performance_portrait.png";
+
+const dancerImage = "https://res.cloudinary.com/dlcshzldd/image/upload/v1770437644/Gemini_Generated_Image_yfswe2yfswe2yfsw_z6l7tq.png"; // Heritage & Innovation - Artistic performance
+const vocalistImage = "https://images.unsplash.com/photo-1735891969992-1256311f791a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"; // Rural Talent - Authentic/Grounded
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
@@ -109,7 +110,7 @@ export default function Home() {
               variants={fadeInUp}
               className="text-primary font-medium tracking-[0.3em] uppercase mb-6 text-sm md:text-base"
             >
-              ## Presenting India's Artistic Legacy ##
+              Presenting India's Artistic Legacy
             </motion.p>
 
             <motion.h1

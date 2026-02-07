@@ -115,6 +115,12 @@ export default function Footer() {
             Crafted with passion for Indian culture
           </p>
         </div>
+
+        <div className="mt-8 text-center border-t border-secondary-foreground/5 pt-4">
+          <p className="text-xs text-secondary-foreground/40">
+            Designed / Managed by <a href="https://stratcrowd.in" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Stratcrowd</a>
+          </p>
+        </div>
       </div>
     </footer>
   );
