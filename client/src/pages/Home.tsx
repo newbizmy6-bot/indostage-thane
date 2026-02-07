@@ -109,7 +109,7 @@ export default function Home() {
               variants={fadeInUp}
               className="text-primary font-medium tracking-[0.3em] uppercase mb-6 text-sm md:text-base"
             >
-              Presenting India's Artistic Legacy
+              ## Presenting India's Artistic Legacy ##
             </motion.p>
 
             <motion.h1
